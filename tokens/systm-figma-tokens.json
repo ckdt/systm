@@ -1,0 +1,214 @@
+[
+  {
+    "fileName": "Primitives.Mode 1.tokens.json",
+    "body": {
+      "radius": {
+        "xl": {
+          "$type": "number",
+          "$value": 32
+        },
+        "lg": {
+          "$type": "number",
+          "$value": 16
+        },
+        "md": {
+          "$type": "number",
+          "$value": 8
+        },
+        "sm": {
+          "$type": "number",
+          "$value": 4
+        },
+        "xs": {
+          "$type": "number",
+          "$value": 2
+        },
+        "2xl": {
+          "$type": "number",
+          "$value": 128
+        },
+        "full": {
+          "$type": "number",
+          "$value": 3600
+        }
+      },
+      "spacing": {
+        "100": {
+          "$type": "number",
+          "$value": 8
+        },
+        "150": {
+          "$type": "number",
+          "$value": 12
+        },
+        "200": {
+          "$type": "number",
+          "$value": 16
+        },
+        "300": {
+          "$type": "number",
+          "$value": 24
+        },
+        "400": {
+          "$type": "number",
+          "$value": 32
+        },
+        "500": {
+          "$type": "number",
+          "$value": 40
+        },
+        "600": {
+          "$type": "number",
+          "$value": 48
+        },
+        "700": {
+          "$type": "number",
+          "$value": 56
+        },
+        "800": {
+          "$type": "number",
+          "$value": 64
+        },
+        "900": {
+          "$type": "number",
+          "$value": 72
+        },
+        "1000": {
+          "$type": "number",
+          "$value": 80
+        },
+        "1100": {
+          "$type": "number",
+          "$value": 88
+        },
+        "1200": {
+          "$type": "number",
+          "$value": 96
+        },
+        "1300": {
+          "$type": "number",
+          "$value": 112
+        },
+        "1400": {
+          "$type": "number",
+          "$value": 120
+        },
+        "050": {
+          "$type": "number",
+          "$value": 4
+        }
+      },
+      "color": {
+        "grey": {
+          "100": {
+            "$type": "color",
+            "$value": "#f8f8f8"
+          },
+          "200": {
+            "$type": "color",
+            "$value": "#f1f1f1"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#e3e3e3"
+          },
+          "400": {
+            "$type": "color",
+            "$value": "#d6d6d6"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#c8c8c8"
+          },
+          "600": {
+            "$type": "color",
+            "$value": "#bababa"
+          },
+          "700": {
+            "$type": "color",
+            "$value": "#959595"
+          },
+          "800": {
+            "$type": "color",
+            "$value": "#707070"
+          },
+          "900": {
+            "$type": "color",
+            "$value": "#4a4a4a"
+          },
+          "1000": {
+            "$type": "color",
+            "$value": "#252525"
+          },
+          "white": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "black": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "brand": {
+          "blue 600": {
+            "$type": "color",
+            "$value": "#3262ed"
+          }
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Tokens.Mode 1.tokens.json",
+    "body": {
+      "spacing": {
+        "spacing-2xl": {
+          "$type": "number",
+          "$value": "{spacing.800}"
+        },
+        "spacing-xl": {
+          "$type": "number",
+          "$value": "{spacing.600}"
+        },
+        "spacing-md": {
+          "$type": "number",
+          "$value": "{spacing.200}"
+        },
+        "spacing-inbetween": {
+          "$type": "number",
+          "$value": "{spacing.150}"
+        },
+        "spacing-sm": {
+          "$type": "number",
+          "$value": "{spacing.100}"
+        },
+        "spacing-xs": {
+          "$type": "number",
+          "$value": "{spacing.050}"
+        },
+        "spacing-none": {
+          "$type": "number",
+          "$value": 0
+        },
+        "spacing-lg": {
+          "$type": "number",
+          "$value": "{spacing.400}"
+        }
+      },
+      "radius": {
+        "radius-rounded": {
+          "$type": "number",
+          "$value": "{radius.md}"
+        },
+        "radius-full": {
+          "$type": "number",
+          "$value": "{radius.full}"
+        },
+        "radius-minimal": {
+          "$type": "number",
+          "$value": "{radius.sm}"
+        }
+      }
+    }
+  }
+]
